@@ -73,7 +73,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       );
     }
 
-    const prompt = `次の要件でWeb検索をしてください。タイトル・概要・ソースURLを出力してください。検索キーワード: ${query}`;
+    const prompt = `Please search the web with the following requirements. Output the title, summary, and source URL for each result. Search query: ${query}`;
     
     try {
       const { stdout, stderr } = await execAsync(`${geminiCommand} -p "${prompt.replace(/"/g, '\\"')}"`);
