@@ -12,7 +12,7 @@ This MCP server exposes two tools:
 ## Prerequisites
 
 - Node.js (v16 or higher recommended)
-- [gemini CLI](https://github.com/reorx/gemini-cli) installed and accessible in your PATH
+- [gemini-cli](https://github.com/google-gemini/gemini-cli) installed and accessible in your PATH
 
 ## Installation
 
